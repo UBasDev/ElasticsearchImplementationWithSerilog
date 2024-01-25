@@ -1,0 +1,108 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ugurcan.bas\\Desktop\\MyAllDocuments\\_personal_demos_\\_.NetDemos_\\ElasticProject1\\ElasticProject1\\ElasticAPI1\\ElasticAPI1\\ElasticAPI1.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ugurcan.bas\\Desktop\\MyAllDocuments\\_personal_demos_\\_.NetDemos_\\ElasticProject1\\ElasticProject1\\ElasticAPI1\\ElasticAPI1\\ElasticAPI1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ugurcan.bas\\Desktop\\MyAllDocuments\\_personal_demos_\\_.NetDemos_\\ElasticProject1\\ElasticProject1\\ElasticAPI1\\ElasticAPI1\\ElasticAPI1.csproj",
+        "projectName": "ElasticAPI1",
+        "projectPath": "C:\\Users\\ugurcan.bas\\Desktop\\MyAllDocuments\\_personal_demos_\\_.NetDemos_\\ElasticProject1\\ElasticProject1\\ElasticAPI1\\ElasticAPI1\\ElasticAPI1.csproj",
+        "packagesPath": "C:\\Users\\ugurcan.bas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ugurcan.bas\\Desktop\\MyAllDocuments\\_personal_demos_\\_.NetDemos_\\ElasticProject1\\ElasticProject1\\ElasticAPI1\\ElasticAPI1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ugurcan.bas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Elasticsearch.Net": {
+              "target": "Package",
+              "version": "[7.17.5, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.17.5, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Serilog.Exceptions": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Serilog.Sinks.Debug": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Serilog.Sinks.Elasticsearch": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
